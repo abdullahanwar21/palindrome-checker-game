@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(
+    to left bottom,
+    #000000,
+    #3b3b3b,
+    #777777,
+    #b9b9b9,
+    #ffffff
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+.palindrome__container {
+  height: 260px;
+  width: 430px;
+  text-align: center;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.21);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.32);
+  padding: 20px;
+}
+input[type="text"] {
+  width: 100%;
+  margin: 20px 0px;
+  padding: 14px;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 5px;
+  font-size: larger;
+  outline: #fff;
+  border: 1px solid #fff;
+}
+::placeholder {
+  color: #fff;
+}
+#btn {
+  border-radius: 5px;
+  background-color: #000;
+  box-shadow: 14px 8px 10px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 14px 8px 10px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 14px 8px 10px 0px rgba(0, 0, 0, 0.75);
+  width: 100%;
+  padding: 14px;
+  font-size: larger;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  border: 0;
+}
+p {
+  margin: 15px 0;
+  font-size: larger;
+}
